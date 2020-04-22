@@ -1,0 +1,35 @@
+[2020-04-22 15:20:03.367] [renderer1] [error] Unable to write to User Settings because atomKeymap.promptV3Features is not a registered configuration.: Error: Unable to write to User Settings because atomKeymap.promptV3Features is not a registered configuration.
+    at e.reject (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5091:839)
+    at e.resolveAndValidate (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5094:717)
+    at e.doWriteConfiguration (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5089:70)
+    at Object.factory (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5088:801)
+    at u.consume (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:134:75)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:133:886
+    at new Promise (<anonymous>)
+    at u.queue (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:133:810)
+    at e.writeConfiguration (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5088:786)
+    at C.writeConfigurationValue (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5114:83)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5102:815
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[2020-04-22 15:20:18.206] [renderer1] [warning] SettingsEditor2: Settings not included in settingsLayout.ts: notebook.displayOrder
+[2020-04-22 15:23:33.880] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:411:808)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:411:757)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:398:174)
+	at /root/.vscode/extensions/ms-vscode.go-0.14.1/out/src/goOutline.js:117:28
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/root/.vscode/extensions/ms-vscode.go-0.14.1/out/src/goOutline.js:95:19)
+	at /root/.vscode/extensions/ms-vscode.go-0.14.1/out/src/goOutline.js:29:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/root/.vscode/extensions/ms-vscode.go-0.14.1/out/src/goOutline.js:9:58)
+[2020-04-22 15:23:40.463] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:411:808)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:411:757)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:398:174)
+	at /root/.vscode/extensions/ms-vscode.go-0.14.1/out/src/goOutline.js:117:28
+	at Array.forEach (<anonymous>)
+	at convertToCodeSymbols (/root/.vscode/extensions/ms-vscode.go-0.14.1/out/src/goOutline.js:95:19)
+	at /root/.vscode/extensions/ms-vscode.go-0.14.1/out/src/goOutline.js:29:16
+	at Generator.next (<anonymous>)
+	at fulfilled (/root/.vscode/extensions/ms-vscode.go-0.14.1/out/src/goOutline.js:9:58)
+[2020-04-22 15:23:41.203] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
