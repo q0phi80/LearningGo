@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-    "src/LearningGo/Introductions/CodebaseStructure/HelloWorld"
+    "LearningGo/Introductions/CodebaseStructure/HelloWorld"
 )
 
 func main() {
