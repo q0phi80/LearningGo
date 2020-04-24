@@ -1,0 +1,7 @@
+---
+headers:
+  common:
+    user-agent: "akwaaba/1.0"
+    content-type: "text/plain"
+  post:
+    content-type: "application/json"
