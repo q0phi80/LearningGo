@@ -7,4 +7,5 @@ import (
 
 func main() {
     fmt.Println(helloworld.GetHellowWorld())
+    fmt.Printf("User ID: %d\n", helloworld.GetUserID())
 }
