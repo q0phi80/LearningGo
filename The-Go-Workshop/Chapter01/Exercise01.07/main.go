@@ -1,0 +1,9 @@
+package main
+
+import (
+    "fmt"
+)
+func main() {
+    offset  := 5
+    fmt.Println(offset)
+}
