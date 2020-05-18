@@ -3,9 +3,9 @@
 - This command compiles the application, including any packages and their dependencies, without installing the results.
 - This creates a binary file to be executed.
 - To reduce the file size of the produced binary, you can add additional flags during build
--- *e.g. go -o hello -ldflags "-w -s" main.go*
+  - *go -o hello -ldflags "-w -s" main.go*
 
-# Cross-Compiling
+## Cross-Compiling
 The build command allows for cross-compiling a go program for multiple Operating Systems and architectures.
 - Reference: https://golang.org/doc/install/source#environment/
 You need to set a constraint to cross-compile a go program.
